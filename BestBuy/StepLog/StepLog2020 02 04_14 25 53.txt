@@ -1,0 +1,15 @@
+Running Test Case: InvalidZipCode
+
+Step Number: 1
+Step Description: Launch the Browser URL and verify launched browser.
+Step Actual Result: The Browser is launched successfully.
+Step Expected Result: The Browser should be launched successfully.
+Test Step Pass
+
+Step Number: 2
+Step Description: Search and click on the product name.
+Step Actual Result: The product is searched and clicked successfully.
+Step Expected Result: The product should be searched and clicked successfully.
+Test Step Fail
+The product 'Samsung - 1.4 cu. ft. Countertop Microwave with Sensor Cooking - Stainless steel' was not clicked successfully  (Exception Details:)
+

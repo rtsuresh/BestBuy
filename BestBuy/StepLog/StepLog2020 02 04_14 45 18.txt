@@ -1,0 +1,26 @@
+Running Test Case: InvalidZipCode
+
+Step Number: 1
+Step Description: Launch the Browser URL and verify launched browser.
+Step Actual Result: The Browser is launched successfully.
+Step Expected Result: The Browser should be launched successfully.
+Test Step Pass
+
+Step Number: 2
+Step Description: Search and click on the product name.
+Step Actual Result: The product is searched and clicked successfully.
+Step Expected Result: The product should be searched and clicked successfully.
+Test Step Pass
+
+Step Number: 3
+Step Description: Add the product to Cart and go to Cart.
+Step Actual Result: The exact product is added to cart successfully.
+Step Expected Result: The exact product should be added to Cart successfully.
+Test Step Pass
+
+Step Number: 4
+Step Description: Enter invalid zip code.
+Step Actual Result: There is error for invalid zip code.
+Step Expected Result: There should be error for invalid zip code
+Test Step Pass
+
