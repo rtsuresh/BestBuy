@@ -87,14 +87,11 @@ public class BusinessFunctions extends UtilityFunctions{
 	{
 		boolean blnFlag = false;			
 		
-		//blnFlag = setText(strLocator, FileUtility.getOR("txtSearch"), strValuetoEnter);
-		//if(blnFlag)
-		//{
-			blnFlag = verifyExist (strLocator, FileUtility.getOR("objItemCount"), 15);		
-		//}
-		//else
-			if(!blnFlag)
-			CustomError.description = "The product '"+strValuetoEnter+"' was not input successfully in the search box. (Exception Details:"+CustomError.description+")";	
+		
+		blnFlag = verifyExist (strLocator, FileUtility.getOR("objItemCount"), 15);		
+		
+		if(!blnFlag)
+		CustomError.description = "The product '"+strValuetoEnter+"' was not input successfully in the search box. (Exception Details:"+CustomError.description+")";	
 		
 		return blnFlag;		
 	}

@@ -68,9 +68,7 @@ public class UtilityFunctions extends Variables{
 		boolean blnFlag = false;
 		try
 		{
-			WebDriverWait wait = new WebDriverWait(driver,TimeOut);
-		//	wait.until(ExpectedConditions.presenceOfElementLocated((By) UIControl(strLocator,strValue)));
-		//	new WebDriverWait(driver, TimeOut).until(ExpectedConditions.elementToBeClickable(UIControl(strLocator,strValue)));			
+			WebDriverWait wait = new WebDriverWait(driver,TimeOut);		
 			blnFlag = true;				
 		}
 		catch(Exception e)

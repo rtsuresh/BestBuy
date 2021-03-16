@@ -16,11 +16,10 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class FileUtility {
-	 //final static String strExcelName = "Assign-3.xlsx";
-	 static FileInputStream file ;
-	 static XSSFWorkbook workbook;
-	 static XSSFSheet sheet;
+public class FileUtility {	
+	static FileInputStream file ;
+	static XSSFWorkbook workbook;
+	static XSSFSheet sheet;
 	static Map<String,String> testData = new HashMap<String,String>(); 
 	static Map<String,String> OR = new HashMap<String,String>();
 	static FileWriter fw;
@@ -252,16 +251,6 @@ public class FileUtility {
 		 return blnFlag;
 		 
 	 }
-	 
-	/*public static void main(String[] args)   {
-		
-		
-		
-		boolean blnFlag = ExcelUtility.readData("TestData.xlsx", "LocalitySearchPartialMatch2");
-		System.out.println(blnFlag);
-		
-
-	}*/
 
 }
 
